@@ -1,5 +1,7 @@
 # Saha Pusulası
 
+[![CI](https://github.com/cantsdlnn/saha-pusulasi/actions/workflows/ci.yml/badge.svg)](https://github.com/cantsdlnn/saha-pusulasi/actions/workflows/ci.yml)
+
 Saha servis işlerini SLA, önem, teknisyen becerisi, vardiya kapasitesi ve yaklaşık mesafeyle sıralayan; öneriyi otomatik karar yerine insan onayına bırakan operasyon demonstrasyonu.
 
 ![Saha Pusulası ekranı](docs/assets/saha-pusulasi.png)

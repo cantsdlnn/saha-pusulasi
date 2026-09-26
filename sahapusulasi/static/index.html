@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Saha işlerini SLA, beceri, kapasite ve mesafeyle açıklanabilir biçimde planlar."
+    />
+    <title>Saha Pusulası</title>
+    <link rel="stylesheet" href="/assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <p>OPERASYON KARAR DESTEK</p>
+        <h1>Saha<br /><span>Pusulası</span></h1>
+      </div>
+      <aside>
+        <b>İnsan onayı zorunlu</b
+        ><span>Sistem önerir; atamayı kullanıcı kesinleştirir.</span>
+      </aside>
+    </header>
+    <main>
+      <section id="metrics" class="metrics"></section>
+      <section class="controls">
+        <div>
+          <p class="step">01 · PLAN</p>
+          <h2>Açık işleri değerlendir</h2>
+        </div>
+        <button id="plan">Açıklanabilir plan üret</button>
+      </section>
+      <p id="status" role="status"></p>
+      <section class="layout">
+        <div>
+          <div class="section-title">
+            <h2>Öncelik kuyruğu</h2>
+            <span>SLA + iş önceliği</span>
+          </div>
+          <div id="jobs" class="jobs"></div>
+        </div>
+        <aside class="right">
+          <div class="section-title">
+            <h2>Önerilen atamalar</h2>
+            <span>Beceri + kapasite + mesafe</span>
+          </div>
+          <div id="suggestions"></div>
+          <div class="section-title tech-title">
+            <h2>Teknisyen kapasitesi</h2>
+          </div>
+          <div id="technicians"></div>
+        </aside>
+      </section>
+      <section class="audit">
+        <div class="section-title">
+          <h2>Denetim izi</h2>
+          <span>Kim, ne zaman, hangi sürümle?</span>
+        </div>
+        <div id="audit"></div>
+      </section>
+    </main>
+    <footer>
+      Saha Pusulası · Ankara merkezli sentetik demo verisi · Gerçek rota
+      navigasyonu değildir
+    </footer>
+    <script src="/assets/app.js" defer></script>
+  </body>
+</html>
